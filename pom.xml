@@ -71,7 +71,7 @@
                 <artifactId>maven-checkstyle-plugin</artifactId>
                 <version>3.0.0</version>
                 <configuration>
-                    <configLocation>checkstyle.xml</configLocation>
+                   <checkstyle.config.location>${project.parent.basedir}/my_checks.xml</checkstyle.config.location>
                 </configuration>
             </plugin>
         </plugins>
